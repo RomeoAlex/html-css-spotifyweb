@@ -18,7 +18,9 @@ body{
 
 /* MAIN */
 main{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     height: calc(100vh - 110px);
         /* Test */
     background-color: lavenderblush;
@@ -27,6 +29,7 @@ main{
 .side-menu{
     height: calc(100vh - 110px);
     width: 200px;
+    
     overflow-y: scroll;
     /* Test */
     background-color: khaki;
@@ -51,7 +54,7 @@ main{
 }
 .main-container{
     position: relative;
-    width: 100%;
+    width: calc(100% - 200px);
     height: calc(100vh - 110px);
     overflow-y: scroll;
         /* Test */
