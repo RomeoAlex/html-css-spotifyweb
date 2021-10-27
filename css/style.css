@@ -15,12 +15,25 @@ body{
     /* Test */
     background-color: brown;
 }
-main{
-    height: calc(100vh - 110px);
-}
+
 footer{    
     height: 110px;
-
     /* TESt */
     background-color: chartreuse;
+}
+/* MAIN */
+main{
+    height: calc(100vh - 110px);
+        /* Test */
+    background-color: lavenderblush;
+}
+.side-menu{
+    height: calc(100vh - 110px);
+    /* Test */
+    background-color: khaki;
+    width:15%;
+}
+.top-menu{
+    height: 80px;
+    background-color: rgb(47, 43, 4);
 }
