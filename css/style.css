@@ -27,13 +27,16 @@ main{
         /* Test */
     background-color: lavenderblush;
 }
+/* SIDE MENU */
 .side-menu{
     height: calc(100vh - 110px);
     /* Test */
     background-color: khaki;
-    width:15%;
+    width:200px;
 }
-.top-menu{
-    height: 80px;
+/* TOP MENU */
+.main-container{
+    width: calc(100vw - 200px);
+    height: calc(100vh - 110px);
     background-color: rgb(47, 43, 4);
 }
