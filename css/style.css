@@ -39,5 +39,6 @@ main{
 .main-container{
     width: calc(100vw - 200px);
     height: calc(100vh - 110px);
-    background-color: rgb(47, 43, 4);
+        /* Test */
+    background-color: gainsboro;
 }
