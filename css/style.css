@@ -16,11 +16,6 @@ body{
     background-color: brown;
 }
 
-footer{    
-    height: 110px;
-    /* TESt */
-    background-color: chartreuse;
-}
 /* MAIN */
 main{
     display: flex;
@@ -31,14 +26,41 @@ main{
 /* SIDE MENU */
 .side-menu{
     height: calc(100vh - 110px);
+    width: 200px;
+    overflow-y: scroll;
     /* Test */
     background-color: khaki;
-    width:200px;
+}
+.site-logo{
+    height:110px;
+    width:100%;
+}
+.site-logo img{
+    /* width: ; */
+    margin: 0 auto;
 }
 /* TOP MENU */
+.promo-upgrade{
+    height: 110px;
+    width: calc(100% - 200px);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0 , 0, 0, 0.5);
+}
 .main-container{
-    width: calc(100vw - 200px);
+    position: relative;
+    width: 100%;
     height: calc(100vh - 110px);
+    overflow-y: scroll;
         /* Test */
     background-color: gainsboro;
+}
+/* FOOTER */
+footer{    
+    height: 110px;
+    overflow: hidden;
+    /* TESt */
+    background-color: chartreuse;
 }
