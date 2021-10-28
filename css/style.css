@@ -37,10 +37,12 @@ main{
 .site-logo{
     height:110px;
     width:100%;
+    background-color: coral;
 }
 .site-logo img{
-    /* width: ; */
-    margin: 0 auto;
+    width: 90%;
+    margin: auto;
+    line-height: 110px;
 }
 /* TOP MENU */
 .promo-upgrade{
@@ -56,6 +58,7 @@ main{
     position: relative;
     width: calc(100% - 200px);
     height: calc(100vh - 110px);
+    padding-top: 110px;
     overflow-y: scroll;
         /* Test */
     background-color: gainsboro;
