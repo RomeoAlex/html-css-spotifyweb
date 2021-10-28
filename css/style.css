@@ -8,6 +8,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+a{
+    text-decoration: none;
+}
 /* CONTENITORE APPLICAZIONE */
 .app-container{
     width: 100%;
@@ -29,10 +32,14 @@ main{
 .side-menu{
     height: calc(100vh - 110px);
     width: 200px;
-    
-    overflow-y: scroll;
-    /* Test */
-    background-color: khaki;
+    background-color: #000000;
+}
+.side-menu a{
+    color: #a3a3a3;
+}
+.side-menu img{
+    width: 30px;
+    vertical-align: middle;
 }
 .site-logo{
     height:110px;
@@ -44,6 +51,22 @@ main{
     margin: auto;
     line-height: 110px;
 }
+/* HOME MENU */
+.home-menu img{
+
+
+}
+.home-menu a{
+    color: #a3a3a3;
+
+}
+.user-menu a{
+
+    background-color: coral;
+}
+.playlist-creation{
+    overflow-y: scroll;
+}
 /* TOP MENU */
 .promo-upgrade{
     height: 110px;
@@ -53,6 +76,18 @@ main{
     right: 0;
     z-index: 1;
     background-color: rgba(0 , 0, 0, 0.5);
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+}
+.upgrade-container{
+    padding:30px 30px;
+}
+.upgrade-container a{
+    color: white;
+    border: solid white 1px;
+    border-radius: 25px;
+    padding: 10px 20px;
 }
 .main-container{
     position: relative;
@@ -61,12 +96,12 @@ main{
     padding-top: 110px;
     overflow-y: scroll;
         /* Test */
-    background-color: gainsboro;
+    background-color: #141922;
 }
 /* FOOTER */
 footer{    
     height: 110px;
     overflow: hidden;
     /* TESt */
-    background-color: chartreuse;
+    background-color: #282828;
 }
