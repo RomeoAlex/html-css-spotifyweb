@@ -52,20 +52,27 @@ main{
     line-height: 110px;
 }
 /* HOME MENU */
-.home-menu img{
-
-
+.home-menu{
+    height: 150px;
+}
+.home-menu li{
+    list-style: none;
+    padding: 10px 0px;
 }
 .home-menu a{
     color: #a3a3a3;
-
 }
-.user-menu a{
 
-    background-color: coral;
+.playlist-header{
+    height: 50px;
 }
-.playlist-creation{
+.playlist-library{
+    height: calc(100% - 400px);
     overflow-y: scroll;
+}
+.user-menu{
+    height:90px;
+    background-color: coral;
 }
 /* TOP MENU */
 .promo-upgrade{
