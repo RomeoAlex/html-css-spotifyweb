@@ -108,6 +108,7 @@ main{
     padding:30px 30px;
 }
 .upgrade-container a{
+    display: inline-block;
     color: white;
     border: solid white 1px;
     border-radius: 25px;
@@ -127,12 +128,21 @@ main{
 .discover-menu a{
     color: #a3a3a3;
 }
-.recent-container{
-    display: flex;
-    flex-wrap: wrap;
+.main-internal{
+    margin-left: 20px;
+    color: white;
 }
-.recent-palyed{
-    margin-right: 20px;
+.recent-container{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.recent-played{
+    padding-right: 20px;
+}
+.recent-played img{
+    width:80%;
 }
 /* FOOTER */
 footer{    
@@ -140,4 +150,7 @@ footer{
     overflow: hidden;
     /* TESt */
     background-color: #282828;
+}
+@media screen {
+    
 }
