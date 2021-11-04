@@ -138,6 +138,11 @@ main{
     flex-wrap: nowrap;
     justify-content: space-between;
 }
+/* @media screen and (max-width: 600px){
+    .recent-container{
+        flex-wrap: wrap;
+    } 
+} */
 .recent-played{
     padding-right: 20px;
         text-align: center;
